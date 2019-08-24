@@ -6,6 +6,7 @@
   <PropertyGroup>
     <OutputPath>$(BuildOutputDir)\$(MSBuildProjectName)\bin\$(Platform)\$(Configuration)\</OutputPath>
     <IntermediateOutputPath>$(BuildOutputDir)\$(MSBuildProjectName)\obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <DocumentationFile>$(BuildOutputDir)\$(MSBuildProjectName)\bin\$(Platform)\$(Configuration)\$(AssemblyName).XML</DocumentationFile>
     <IntDir>$(BuildOutputDir)\$(MSBuildProjectName)\intermediate\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   
