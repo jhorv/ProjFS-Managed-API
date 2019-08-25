@@ -46,6 +46,7 @@
     <Compile Include="ProviderOptions.fs" />
     <Compile Include="ProjectedFileInfo.fs" />
     <Compile Include="ActiveEnumeration.fs" />
+    <Compile Include="SimpleProviderManaged.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
